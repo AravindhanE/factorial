@@ -4,12 +4,12 @@ class factorial{
 	public static void main (String[] args) {
 		 Scanner s=new Scanner(System.in);
 	     int n=s.nextInt();
-	     int m=1;
-	    for(int i=1;i<=n;i++)
+	     int ab=1;
+	    for(int i=2;i<n;i++)
 	    {
-	        m=m*i;
+	        ab=ab*i;
 	    }
-         System.out.println(m); 
+         System.out.println(ab); 
 	}
 }
 	
